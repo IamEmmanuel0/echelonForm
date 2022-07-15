@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px #000 solid;
+    background-color: rgb(157, 211, 203);
+}
+
+#container .name{
+    display: flex;
+    justify-content: space-around;
+}
+
+#container .row input{
+    width: 55px;
+    height: 35px;
+    font-size: 16px;
+}
+
+#container .row input:focus{
+    background-color: rgb(44, 129, 114);
+    color: #fff;
+}
+
+#container .row .col{
+    margin: 3px;
+}
+
+#container #sovle{
+    margin: 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    width: 90%;
+    color: #000;
+    background-color: rgb(195, 232, 226);
+    border-radius: 20px;
+}
+
+#container #sovle:hover{
+    color: #fff;
+    background-color: rgb(44, 129, 114);
+    cursor: pointer;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+#echolenForm > h3{
+    text-align: center; 
+    text-decoration: underline;
+    font-weight: 300;
+
+}
